@@ -1,0 +1,453 @@
+*{
+    box-sizing: border-box;
+}
+header {
+    height: 50px;
+    border-bottom-color: gray;
+}
+.contet{
+    margin-left: 50px;
+}
+.middle {
+    display: flex;
+    background-color: #f8f8f8;
+}
+.ad {
+    margin: 10px 5px 0px 0px;
+    width: 1000px;
+    height: 200px;
+    background-color: #d0a9f5;
+}
+.banner{
+    width: 1050px;
+    height: 200px;
+}
+.cont1{
+    display: flex;
+}
+.title1{
+    background-color:white;
+    height: 80px;
+}
+
+/* 첫줄 홈 화면 */
+.home1{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+.titlelist1{
+    margin: 20px 50px 20px 100px;
+    font-size: large;
+}
+
+/* 첫줄 각 영상 */
+.v1_1{
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    padding-top: 50px;
+}
+.v1_1_title{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.v1_1_date{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.v1_2{
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+.v1_2_title{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.v1_2_date{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.v1_3{
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+.v1_3_date{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+.v1_3_title{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.v1_4{
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color:peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+.v1_4_title{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.v1_4_date{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+/* 둘째줄 홈 화면 */
+.home2{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+.titlelist2{
+    margin: 20px 50px 20px 100px;
+    font-size: large;
+}
+
+/* 둘째줄 각 영상 */
+.v2_1{
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+.v2_1_title{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.v2_1_date{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.v2_2{
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+.v2_2_title{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.v2_2_date{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.v2_3{
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+.v2_3_title{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.v2_3_date{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.v2_4{
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+.v2_4_title{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.v2_4_date{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+/* 구분선 */
+.divider{
+    margin: 10px 0px 10px 130px;
+    background-color: lightgray;
+    width: 740px;
+    height: 1px;
+}
+
+
+/* 프로필 레이아웃 */
+.profile_layout{
+    background-color:white;
+    display: flex;
+}
+.profile_name{
+    font-size: x-large;
+    margin: 10px 0px 0px 30px;
+    font-weight: 600;
+}
+.birthday{
+    font-size: medium;
+    margin: 0px 0px 0px 30px;
+}
+
+.empty{
+    background-color: white;
+    height: 20px;
+}
+
+/* 프로필 사진 */
+.box {
+    width: 80px;
+    height: 80px; 
+    border-radius: 70%;
+    overflow: hidden;
+    margin-left: 100px;
+}
+.profile {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* 탭 바 */
+.tab_wrap{
+    background-color:white;
+}
+
+button {
+    background:none;
+    border:0;
+    outline:0;
+    cursor:pointer;
+  }
+  .tab_menu_container {
+    display:flex;
+    margin-left: 100px;
+  }
+  .tab_menu_btn {
+    width:90px;
+    height:50px;
+    transition:0.3s all;
+  }
+  .tab_menu_btn.on {
+    border-bottom:2px solid #df0000;
+    font-weight:700;
+    color:#df0000;
+  }
+  .tab_menu_btn:hover {
+    color:#df0000;
+  }
+  .tab_box {
+    display:none;
+    padding:20px;
+    background-color: #f1f1f1;
+  }
+  .tab_box.on {
+    display:block;
+  }
+
+  /* 포트폴리오 화면 */
+  .portfolio1{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+.portfolio2{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+/* 포트폴리오 첫줄 각 영상 */
+.p1_1{
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+.p1_1_title{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.p1_1_date{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.p1_2{
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+.p1_2_title{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.p1_2_date{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.p1_3{
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+.p1_3_title{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.p1_3_date{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.p1_4{
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+.p1_4_title{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.p1_4_date{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+/* 포트폴리오 둘쨔줄 각 영상 */
+.p2_1{
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+.p2_1_title{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.p2_1_date{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.p2_2{
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+.p2_2_title{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.p2_2_date{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.p2_3{
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+.p2_3_title{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.p2_3_date{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.p2_4{
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+.p2_4_title{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.p2_4_date{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
