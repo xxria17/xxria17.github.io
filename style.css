@@ -451,3 +451,72 @@ button {
     margin-bottom: 10px;
     font-size: small;
 }
+
+
+/* 정보 화면 */
+.info{
+    font-size: large;
+    margin: 10px 0px 30px 100px;
+}
+.info_text{
+    font-size: small;
+    margin: 10px 0px 30px 100px;
+}
+.information{
+    display: flex;
+}
+/* 구분선 */
+.divider2{
+    margin: 10px 5px 30px 100px;
+    background-color: lightgray;
+    width: 500px;
+    height: 1px;
+}
+.divider3{
+    margin: 10px 50px 10px 150px;
+    background-color: lightgray;
+    width: 200px;
+    height: 1px;
+}
+
+/* 세부 정보 */
+.detail{
+    font-size: large;
+    margin: 10px 0px 30px 100px;
+}
+.github{
+    font-size: small;
+    margin: 10px 0px 30px 100px;
+}
+.email{
+    font-size: small;
+    margin: 10px 0px 30px 100px;
+}
+.blog{
+    font-size: small;
+    margin: 10px 0px 30px 100px;
+}
+
+/* 링크 */
+.link_text{
+    font-size: large;
+    margin: 10px 0px 30px 100px;
+}
+.whattoeat{
+    font-size: small;
+    margin: 10px 0px 30px 100px;
+}
+
+/* 통계 */
+.stat{
+    font-size: large;
+    margin: 10px 50px 20px 150px;
+}
+.birthdate{
+    font-size: small;
+    margin: 10px 50px 20px 150px;
+}
+.views{
+    font-size: small;
+    margin: 10px 50px 20px 150px;
+}
