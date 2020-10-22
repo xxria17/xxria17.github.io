@@ -29,6 +29,10 @@ header {
     background-color:white;
     height: 80px;
 }
+.center{
+    position: absolute; left: 50%; transform: translateX(-50%);
+
+}
 
 /* 첫줄 홈 화면 */
 .home1{
@@ -46,13 +50,15 @@ header {
     height: 120px;
     width: 220px;
     margin-right: 8px;
-    background-color: peachpuff;
     padding-top: 50px;
+    background-image: url("img/whattoeat_thumbnail.png");
+    background-size: contain;
 }
 .v1_1_title{
     text-align: left;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    line-height: 20px;
 }
 .v1_1_date{
     text-align: left;
@@ -71,7 +77,8 @@ header {
 .v1_2_title{
     text-align: left;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    line-height: 20px;
 }
 .v1_2_date{
     text-align: left;
@@ -95,7 +102,8 @@ header {
 .v1_3_title{
     text-align: left;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    line-height: 20px;
 }
 
 .v1_4{
@@ -109,7 +117,8 @@ header {
 .v1_4_title{
     text-align: left;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    line-height: 20px;
 }
 .v1_4_date{
     text-align: left;
@@ -452,7 +461,79 @@ button {
     font-size: small;
 }
 
+/* 소개 화면 */
+.introduce{
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin: 0px 50px 0px 50px;
+}
+.prof_box {
+    width: 40px;
+    height: 40px; 
+    border-radius: 70%;
+    overflow: hidden;
+}
+.prof_profile {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.prof_name{
+    font-size: small;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: black;
+}
+.prof{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.prof_date{
+    font-size: small;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: rgb(110, 110, 110);
+}
+.introduce_detail{
+    margin-left: 60px;
+    line-height: 22px;
+}
+.my_img{
+    width: 70%;
+    height: 50%;
+    margin: 30px 50px 30px 50px;
+}
 
+.education{
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin: 30px 50px 0px 50px;
+}
+.highschool_section{
+    display: flex;
+}
+.highschool{
+    margin: 10px 0px 30px 50px;
+    width: 200px;
+    height: 200px;
+}
+.highschool_detail{
+    margin: 70px 50px 30px 50px;
+}
+.university_section{
+    display: flex;
+}
+.university{
+    margin: 10px 0px 30px 50px;
+    width: 200px;
+    height: 200px;
+}
+.university_detail{
+    margin: 70px 50px 30px 50px;
+}
 /* 정보 화면 */
 .info{
     font-size: large;
