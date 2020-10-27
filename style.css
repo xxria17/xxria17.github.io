@@ -51,8 +51,8 @@ header {
     width: 220px;
     margin-right: 8px;
     padding-top: 50px;
-    background-image: url("img/whattoeat_thumbnail.png");
-    background-size: contain;
+    background-image: url("img/KakaoTalk_20201027_140939592.png");
+    background-size: cover;
 }
 .v1_1_title{
     text-align: left;
@@ -216,9 +216,9 @@ header {
 
 /* 구분선 */
 .divider{
-    margin: 10px 0px 10px 130px;
+    margin: 10px 0px 10px 100px;
     background-color: lightgray;
-    width: 740px;
+    width: 900px;
     height: 1px;
 }
 
@@ -234,8 +234,9 @@ header {
     font-weight: 600;
 }
 .birthday{
-    font-size: medium;
+    font-size: small;
     margin: 0px 0px 0px 30px;
+    color: gray;
 }
 
 .empty{
@@ -272,6 +273,7 @@ button {
   .tab_menu_container {
     display:flex;
     margin-left: 100px;
+    width: 100%;
   }
   .tab_menu_btn {
     width:90px;
@@ -296,7 +298,7 @@ button {
   }
 
   /* 포트폴리오 화면 */
-  .portfolio1{
+.portfolio1{
     display: flex;
     justify-content: center;
     margin-left: 100px;
@@ -306,7 +308,10 @@ button {
     justify-content: center;
     margin-left: 100px;
 }
-
+.portfolio_title{
+    margin: 20px 50px 20px 100px;
+    font-size: large;
+}
 /* 포트폴리오 첫줄 각 영상 */
 .p1_1{
     height: 120px;
@@ -534,6 +539,158 @@ button {
 .university_detail{
     margin: 70px 50px 30px 50px;
 }
+
+.career{
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin: 30px 50px 0px 50px;
+}
+.career_detail{
+    margin-left: 60px;
+    line-height: 22px;
+}
+
+/* 스킬 화면 */
+.skill1{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+.s1_language{
+    margin: 20px 50px 20px 100px;
+    font-size: large;
+}
+.s1_1{
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+.s1_1_level{
+    height: 3px;
+    width: 120px;
+    margin-right: 8px;
+    background-color: red;
+    text-align: center;
+}
+.s1_1_title{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.s1_1_date{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.s1_2{
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+.s1_2_level{
+    height: 3px;
+    width: 100px;
+    margin-right: 8px;
+    background-color: red;
+    text-align: center;
+}
+.s1_2_title{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.s1_2_date{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.s1_3{
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+.s1_3_level{
+    height: 3px;
+    width: 90px;
+    margin-right: 8px;
+    background-color: red;
+    text-align: center;
+}
+.s1_3_title{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.s1_3_date{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.s1_4{
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+.s1_4_level{
+    height: 3px;
+    width: 40px;
+    margin-right: 8px;
+    background-color: red;
+    text-align: center;
+}
+.s1_4_title{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.s1_4_date{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.s2_certificate{
+    margin: 20px 50px 20px 100px;
+    font-size: large;
+}
+.skill2{
+    display: flex;
+    margin-left: 100px;
+}
+.s2_1{
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+.s2_1_title{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.s2_1_date{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
 /* 정보 화면 */
 .info{
     font-size: large;
