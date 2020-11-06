@@ -1,0 +1,29 @@
+header {
+    height: 50px;
+    border-bottom-color: gray;
+}
+.main {
+    background-color: #f8f8f8;
+}
+.video{
+    width: 1280px;
+    height: 720px;
+    background-color: greenyellow;
+}
+.hashtag{
+    color: #065fd4;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.title{
+    color: #030303;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.view_num{
+    font-size: 14px;
+    color: #606060;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
