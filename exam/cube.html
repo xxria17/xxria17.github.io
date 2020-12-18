@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cube</title>
+    <style>
+        html,body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center; /*가로 정렬*/
+            align-items: center; /*세로 정렬*/
+            background-color: #cccccc;
+        }
+        .scene {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 500px;
+            height: 500px;
+            border: 1px solid #c3590a;
+            perspective: 300px;
+            perspective-origin: center center;
+
+        }
+        .cube {
+            width: 200px;
+            height: 200px;
+            border: 1px solid #4c65f8;
+            transform-style: preserve-3d;
+            transform: translateZ(-100px);
+        }
+        .face {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+        .back {
+            background-color: #c3590a;
+            transform: rotateY(180deg) translateZ(100px);
+        }
+        .right {
+            background-color: #4c65f8;
+            transform: rotateY(90deg) translateZ(100px);
+        }
+        .left {
+            background-color: #4584b1;
+            transform: rotateY(-90deg) translateZ(100px);
+        }
+        .top {
+            background-color: #9dfcfe;
+            transform: rotateX(90deg) translateZ(100px);
+        }
+        .bottom {
+            background-color: #80ff90;
+            transform: rotateX(-90deg) translateZ(100px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="scene">
+            <div class="cube">
+                <div class="face back"></div>
+                <div class="face right"></div>
+                <div class="face left"></div>
+                <div class="face top"></div>
+                <div class="face bottom"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
