@@ -1,0 +1,883 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: coral;
+    height: 50px;
+    border-bottom-color: gray;
+    padding: 0 16px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+}
+
+.content {
+    margin-left: 50px;
+    background-color: cadetblue;
+}
+
+.middle {
+    width: 100%;
+    background-color: cornflowerblue;
+}
+
+.ad {
+    margin: 10px 5px 0px 0px;
+    width: 100%;
+    height: 200px;
+    background-color: #d0a9f5;
+    position: relative;
+}
+
+.banner {
+    width: 100%;
+    height: 200px;
+}
+
+.cont1 {
+    background-color: #d0a9f5;
+    width: 100%;
+    display: flex;
+    height: calc(100vw / 6.2 - 1px);
+}
+
+.title1 {
+    width: 100%;
+    background-color: chocolate;
+    height: 80px;
+}
+
+.center {
+    /*position: absolute; left: 50%; transform: translateX(-50%);*/
+    background-color: brown;
+}
+
+/* 첫줄 홈 화면 */
+.home1 {
+    display: flex;
+    margin-left: 300px;
+}
+
+.recent_project {
+    margin-top: 10px;
+}
+
+.titlelist1 {
+    padding-left: 300px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+/* 첫줄 각 영상 */
+.v1_1 {
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    padding-top: 50px;
+
+    background-size: cover;
+}
+
+.v1_1_title {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    line-height: 20px;
+}
+
+.v1_1_date {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.v1_2 {
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.v1_2_title {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    line-height: 20px;
+}
+
+.v1_2_date {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.v1_3 {
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.v1_3_date {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.v1_3_title {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    line-height: 20px;
+}
+
+.v1_4 {
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.v1_4_title {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    line-height: 20px;
+}
+
+.v1_4_date {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+/* 둘째줄 홈 화면 */
+.home2 {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.titlelist2 {
+    padding-left: 300px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+/* 둘째줄 각 영상 */
+.v2_1 {
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.v2_1_title {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.v2_1_date {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.v2_2 {
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.v2_2_title {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.v2_2_date {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.v2_3 {
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.v2_3_title {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.v2_3_date {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.v2_4 {
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.v2_4_title {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.v2_4_date {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+/* 구분선 */
+.divider {
+    margin: 10px 100px 10px 100px;
+    background-color: lightgray;
+    width: 900px;
+    height: 1px;
+}
+
+
+/* 프로필 레이아웃 */
+.profile_layout {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 250px 4px;
+}
+
+.profile_name {
+    font-size: 18px;
+    margin: 10px 0px 0px 30px;
+    font-weight: 400;
+}
+
+.birthday {
+    font-size: small;
+    margin: 0px 0px 0px 30px;
+    color: gray;
+}
+
+.empty {
+    width: 100%;
+    background-color: white;
+    height: 20px;
+}
+
+/* 프로필 사진 */
+.box {
+    width: 80px;
+    height: 80px;
+    border-radius: 70%;
+    overflow: hidden;
+    margin-left: 100px;
+}
+
+.profile {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* 탭 바 */
+.tab_wrap {
+    background-color: white;
+}
+
+button {
+    background: none;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.tab_menu_container {
+    display: flex;
+    margin-left: 100px;
+    width: 100%;
+    padding: 0 250px 4px;
+}
+
+.tab_menu_btn {
+    width: 90px;
+    height: 50px;
+    transition: 0.3s all;
+}
+
+.tab_menu_btn.on {
+    border-bottom: 2px solid #df0000;
+    font-weight: 700;
+    color: #df0000;
+}
+
+.tab_menu_btn:hover {
+    color: #df0000;
+}
+
+.tab_box {
+    display: none;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+.tab_box.on {
+    display: block;
+}
+
+/* 포트폴리오 화면 */
+.portfolio1 {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.portfolio2 {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.portfolio_title {
+    margin: 20px 50px 20px 100px;
+    font-size: large;
+}
+
+/* 포트폴리오 첫줄 각 영상 */
+.p1_1 {
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.p1_1_title {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.p1_1_date {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.p1_2 {
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.p1_2_title {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.p1_2_date {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.p1_3 {
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.p1_3_title {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.p1_3_date {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.p1_4 {
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.p1_4_title {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.p1_4_date {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+/* 포트폴리오 둘쨔줄 각 영상 */
+.p2_1 {
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.p2_1_title {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.p2_1_date {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.p2_2 {
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.p2_2_title {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.p2_2_date {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.p2_3 {
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.p2_3_title {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.p2_3_date {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.p2_4 {
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.p2_4_title {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.p2_4_date {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+/* 소개 화면 */
+.introduce {
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin: 0 100px 0 300px;
+}
+
+.prof_box {
+    width: 40px;
+    height: 40px;
+    border-radius: 70%;
+    overflow: hidden;
+}
+
+.prof_profile {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.prof_name {
+    font-size: small;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: black;
+}
+
+.prof {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.prof_date {
+    font-size: small;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: rgb(110, 110, 110);
+}
+
+.introduce_detail {
+    margin-left: 60px;
+    line-height: 22px;
+}
+
+.my_img {
+    width: 70%;
+    height: 50%;
+    margin: 30px 50px 30px 50px;
+}
+
+.education {
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin: 30px 100px 0 300px;
+}
+
+.highschool_section {
+    display: flex;
+}
+
+.highschool {
+    margin: 10px 0px 30px 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.highschool_detail {
+    margin: 70px 50px 30px 50px;
+}
+
+.university_section {
+    display: flex;
+}
+
+.university {
+    margin: 10px 0px 30px 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.university_detail {
+    margin: 70px 50px 30px 50px;
+}
+
+.career {
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin: 30px 100px 0 300px;
+}
+
+.career_detail {
+    margin-left: 60px;
+    line-height: 22px;
+}
+
+/* 스킬 화면 */
+.skill1 {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.s1_language {
+    margin: 20px 50px 20px 100px;
+    font-size: large;
+}
+
+.s1_1 {
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.s1_1_level {
+    height: 3px;
+    width: 120px;
+    margin-right: 8px;
+    background-color: red;
+    text-align: center;
+}
+
+.s1_1_title {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.s1_1_date {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.s1_2 {
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.s1_2_level {
+    height: 3px;
+    width: 100px;
+    margin-right: 8px;
+    background-color: red;
+    text-align: center;
+}
+
+.s1_2_title {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.s1_2_date {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.s1_3 {
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.s1_3_level {
+    height: 3px;
+    width: 90px;
+    margin-right: 8px;
+    background-color: red;
+    text-align: center;
+}
+
+.s1_3_title {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.s1_3_date {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.s1_4 {
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.s1_4_level {
+    height: 3px;
+    width: 40px;
+    margin-right: 8px;
+    background-color: red;
+    text-align: center;
+}
+
+.s1_4_title {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.s1_4_date {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.s2_certificate {
+    margin: 20px 50px 20px 100px;
+    font-size: large;
+}
+
+.skill2 {
+    display: flex;
+    margin-left: 100px;
+}
+
+.s2_1 {
+    height: 120px;
+    width: 220px;
+    margin-right: 8px;
+    background-color: peachpuff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.s2_1_title {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.s2_1_date {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+/* 정보 화면 */
+.info {
+    font-size: large;
+    margin: 10px 0px 30px 100px;
+}
+
+.info_text {
+    font-size: small;
+    margin: 10px 0px 30px 100px;
+}
+
+.information {
+    display: flex;
+}
+
+/* 구분선 */
+.divider2 {
+    margin: 10px 5px 30px 100px;
+    background-color: lightgray;
+    width: 500px;
+    height: 1px;
+}
+
+.divider3 {
+    margin: 10px 50px 10px 150px;
+    background-color: lightgray;
+    width: 200px;
+    height: 1px;
+}
+
+/* 세부 정보 */
+.detail {
+    font-size: large;
+    margin: 10px 0px 30px 100px;
+}
+
+.github {
+    font-size: small;
+    margin: 10px 0px 30px 100px;
+}
+
+.email {
+    font-size: small;
+    margin: 10px 0px 30px 100px;
+}
+
+.blog {
+    font-size: small;
+    margin: 10px 0px 30px 100px;
+}
+
+/* 링크 */
+.link_text {
+    font-size: large;
+    margin: 10px 0px 30px 100px;
+}
+
+.whattoeat {
+    font-size: small;
+    margin: 10px 0px 30px 100px;
+}
+
+/* 통계 */
+.stat {
+    font-size: large;
+    margin: 10px 50px 20px 150px;
+}
+
+.birthdate {
+    font-size: small;
+    margin: 10px 50px 20px 150px;
+}
+
+.views {
+    font-size: small;
+    margin: 10px 50px 20px 150px;
+}
