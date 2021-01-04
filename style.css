@@ -183,7 +183,7 @@ body {
         flex: 1;
         justify-content: flex-start;
         padding-bottom: 0;
-        padding-left: 300px;
+        padding-left: calc(50% - 550px);
     }
 }
 @media (max-width: 1250px) {
