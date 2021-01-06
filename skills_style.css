@@ -167,7 +167,7 @@ body {
     border-bottom: 1px solid black;
     transform-origin: left center;
     /*transform: translateX(0%) scaleX(0.0815935);*/
-    transform: translateX(83%) scaleX(0.15);
+    transform: translateX(37%) scaleX(0.15);
     border-bottom-width: 2px;
 }
 @media (min-width: 876px) {

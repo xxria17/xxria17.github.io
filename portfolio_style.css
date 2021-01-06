@@ -167,7 +167,7 @@ body {
     border-bottom: 1px solid black;
     transform-origin: left center;
     /*transform: translateX(0%) scaleX(0.0815935);*/
-    transform: translateX(83%) scaleX(0.15);
+    transform: translateX(60%) scaleX(0.15);
     border-bottom-width: 2px;
 }
 @media (min-width: 876px) {
@@ -186,4 +186,384 @@ body {
     min-height: calc(100vh - 56px - 48px - 16px);
     padding-bottom: 0;
     padding-left: 400px;
+}
+
+#header_inner {
+    height: 56px;
+    margin: 8px 0 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#header_items {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 20px;
+}
+
+#portfolio_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#portfolio_calendary {
+    margin-right: 4px;
+    display: inline-block;
+    width: 210px;
+    margin-bottom: 24px;
+}
+#portfolio_calendary_thumbnail {
+    height: 118px;
+    width: 210px;
+    display: block;
+    position: relative;
+    flex: none;
+    background-color: black;
+}
+#portfolio_calendary_description {
+    padding-right: 24px;
+}
+#portfolio_calendary_title {
+    margin: 8px 0 8px;
+    max-height: calc(2 * 16px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: normal;
+    line-height: 16px;
+}
+#portfolio_calendary_time {
+    font-size: 13px;
+    max-width: 100%;
+    max-height: calc(2 * 18px);
+    overflow: hidden;
+    color: #606060;
+}
+
+#portfolio_calendary {
+    margin-right: 4px;
+    display: inline-block;
+    width: 210px;
+    margin-bottom: 24px;
+}
+#portfolio_calendary_thumbnail {
+    height: 118px;
+    width: 210px;
+    display: block;
+    position: relative;
+    flex: none;
+    background-color: black;
+}
+#portfolio_calendary_description {
+    padding-right: 24px;
+}
+#portfolio_calendary_title {
+    margin: 8px 0 8px;
+    max-height: calc(2 * 16px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: normal;
+    line-height: 16px;
+}
+#portfolio_calendary_time {
+    font-size: 13px;
+    max-width: 100%;
+    max-height: calc(2 * 18px);
+    overflow: hidden;
+    color: #606060;
+}
+
+#portfolio_parrot {
+    margin-right: 4px;
+    display: inline-block;
+    width: 210px;
+    margin-bottom: 24px;
+}
+#portfolio_parrot_thumbnail {
+    height: 118px;
+    width: 210px;
+    display: block;
+    position: relative;
+    flex: none;
+    background-color: black;
+}
+#portfolio_parrot_description {
+    padding-right: 24px;
+}
+#portfolio_parrot_title {
+    margin: 8px 0 8px;
+    max-height: calc(2 * 16px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: normal;
+    line-height: 16px;
+}
+#portfolio_parrot_time {
+    font-size: 13px;
+    max-width: 100%;
+    max-height: calc(2 * 18px);
+    overflow: hidden;
+    color: #606060;
+}
+
+#portfolio_opencurtain {
+    margin-right: 4px;
+    display: inline-block;
+    width: 210px;
+    margin-bottom: 24px;
+}
+#portfolio_opencurtain_thumbnail {
+    height: 118px;
+    width: 210px;
+    display: block;
+    position: relative;
+    flex: none;
+    background-color: black;
+}
+#portfolio_opencurtain_description {
+    padding-right: 24px;
+}
+#portfolio_opencurtain_title {
+    margin: 8px 0 8px;
+    max-height: calc(2 * 16px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: normal;
+    line-height: 16px;
+}
+#portfolio_opencurtain_time {
+    font-size: 13px;
+    max-width: 100%;
+    max-height: calc(2 * 18px);
+    overflow: hidden;
+    color: #606060;
+}
+
+#portfolio_whattoeat {
+    margin-right: 4px;
+    display: inline-block;
+    width: 210px;
+    margin-bottom: 24px;
+}
+#portfolio_whattoeat_thumbnail {
+    height: 118px;
+    width: 210px;
+    display: block;
+    position: relative;
+    flex: none;
+    background-color: black;
+}
+#portfolio_whattoeat_description {
+    padding-right: 24px;
+}
+#portfolio_whattoeat_title {
+    margin: 8px 0 8px;
+    max-height: calc(2 * 16px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: normal;
+    line-height: 16px;
+}
+#portfolio_whattoeat_time {
+    font-size: 13px;
+    max-width: 100%;
+    max-height: calc(2 * 18px);
+    overflow: hidden;
+    color: #606060;
+}
+
+#portfolio_salaryday {
+    margin-right: 4px;
+    display: inline-block;
+    width: 210px;
+    margin-bottom: 24px;
+}
+#portfolio_salaryday_thumbnail {
+    height: 118px;
+    width: 210px;
+    display: block;
+    position: relative;
+    flex: none;
+    background-color: black;
+}
+#portfolio_salaryday_description {
+    padding-right: 24px;
+}
+#portfolio_salaryday_title {
+    margin: 8px 0 8px;
+    max-height: calc(2 * 16px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: normal;
+    line-height: 16px;
+}
+#portfolio_salaryday_time {
+    font-size: 13px;
+    max-width: 100%;
+    max-height: calc(2 * 18px);
+    overflow: hidden;
+    color: #606060;
+}
+
+#portfolio_maskday {
+    margin-right: 4px;
+    display: inline-block;
+    width: 210px;
+    margin-bottom: 24px;
+}
+#portfolio_maskday_thumbnail {
+    height: 118px;
+    width: 210px;
+    display: block;
+    position: relative;
+    flex: none;
+    background-color: black;
+}
+#portfolio_maskday_description {
+    padding-right: 24px;
+}
+#portfolio_maskday_title {
+    margin: 8px 0 8px;
+    max-height: calc(2 * 16px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: normal;
+    line-height: 16px;
+}
+#portfolio_maskday_time {
+    font-size: 13px;
+    max-width: 100%;
+    max-height: calc(2 * 18px);
+    overflow: hidden;
+    color: #606060;
+}
+
+#portfolio_whograden {
+    margin-right: 4px;
+    display: inline-block;
+    width: 210px;
+    margin-bottom: 24px;
+}
+#portfolio_whograden_thumbnail {
+    height: 118px;
+    width: 210px;
+    display: block;
+    position: relative;
+    flex: none;
+    background-color: black;
+}
+#portfolio_whograden_description {
+    padding-right: 24px;
+}
+#portfolio_whograden_title {
+    margin: 8px 0 8px;
+    max-height: calc(2 * 16px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: normal;
+    line-height: 16px;
+}
+#portfolio_whograden_time {
+    font-size: 13px;
+    max-width: 100%;
+    max-height: calc(2 * 18px);
+    overflow: hidden;
+    color: #606060;
+}
+
+#portfolio_ {
+    margin-right: 4px;
+    display: inline-block;
+    width: 210px;
+    margin-bottom: 24px;
+}
+#portfolio__thumbnail {
+    height: 118px;
+    width: 210px;
+    display: block;
+    position: relative;
+    flex: none;
+    background-color: black;
+}
+#portfolio__description {
+    padding-right: 24px;
+}
+#portfolio__title {
+    margin: 8px 0 8px;
+    max-height: calc(2 * 16px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: normal;
+    line-height: 16px;
+}
+#portfolio__time {
+    font-size: 13px;
+    max-width: 100%;
+    max-height: calc(2 * 18px);
+    overflow: hidden;
+    color: #606060;
+}
+
+#portfolio_notetaking {
+    margin-right: 4px;
+    display: inline-block;
+    width: 210px;
+    margin-bottom: 24px;
+}
+#portfolio_notetaking_thumbnail {
+    height: 118px;
+    width: 210px;
+    display: block;
+    position: relative;
+    flex: none;
+    background-color: black;
+}
+#portfolio_notetaking_description {
+    padding-right: 24px;
+}
+#portfolio_notetaking_title {
+    margin: 8px 0 8px;
+    max-height: calc(2 * 16px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: normal;
+    line-height: 16px;
+}
+#portfolio_notetaking_time {
+    font-size: 13px;
+    max-width: 100%;
+    max-height: calc(2 * 18px);
+    overflow: hidden;
+    color: #606060;
 }
