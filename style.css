@@ -210,7 +210,9 @@ body {
     max-width: 1100px;
     min-height: calc(100vh - 56px - 48px - 16px);
 }
+#top_contents :hover {
 
+}
 #top_inner {
     display: flex;
     flex-direction: row;
