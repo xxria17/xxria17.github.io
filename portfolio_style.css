@@ -14,7 +14,24 @@ body {
     background-color: #f1f1f1;
     margin: 0;
 }
-
+span {
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 4px;
+    padding: 3px 4px;
+    border-radius: 2px;
+    height: 12px;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #030303;
+}
 .header {
     height: 56px;
     padding: 0 16px;
