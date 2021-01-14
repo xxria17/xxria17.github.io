@@ -187,3 +187,183 @@ body {
     padding-bottom: 0;
     padding-left: 400px;
 }
+#main_header_title {
+    height: 56px;
+    margin: 8px 0 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+}
+#main_skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#skills_java {
+    margin-right: 4px;
+    display: inline-block;
+    width: 210px;
+    margin-bottom: 24px;
+}
+#java_thumbnail {
+    width: 210px;
+    height: 118px;
+    display: block;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+#java_title {
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    font-weight: 500;
+}
+#java_num {
+    width: 92px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: black;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#java_img {
+    width: 210px;
+    height: 118px;
+    object-fit: cover;
+}
+#skills_kotlin {
+    margin-right: 4px;
+    display: inline-block;
+    width: 210px;
+    margin-bottom: 24px;
+}
+#kotlin_thumbnail {
+    width: 210px;
+    height: 118px;
+    display: block;
+    position: relative;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+#kotlin_num {
+    width: 92px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: black;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#kotlin_img {
+    width: 210px;
+    height: 118px;
+    object-fit: cover;
+}
+#kotlin_title {
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    font-weight: 500;
+}
+#skills_android {
+    margin-right: 4px;
+    display: inline-block;
+    width: 210px;
+    margin-bottom: 24px;
+}
+#android_thumbnail {
+    width: 210px;
+    height: 118px;
+    display: block;
+    position: relative;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+#android_title {
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    font-weight: 500;
+}
+#android_num {
+    width: 92px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: black;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#android_img {
+    width: 210px;
+    height: 118px;
+    object-fit: cover;
+}
+#skills_html {
+    margin-right: 4px;
+    display: inline-block;
+    width: 210px;
+    margin-bottom: 24px;
+}
+#html_thumbnail {
+    width: 210px;
+    height: 118px;
+    display: block;
+    position: relative;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+#html_title {
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    font-weight: 500;
+}
+#html_num {
+    width: 92px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: black;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#html_img {
+    width: 210px;
+    height: 118px;
+    object-fit: cover;
+}
