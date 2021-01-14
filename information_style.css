@@ -315,13 +315,31 @@ td {
     border-bottom: 1px solid rgba(0,0,0,0.1);
     padding: 12px 0;
 }
+#statistics_inner {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: normal;
+}
 #join_container {
     padding: 12px 0;
     border-bottom: 1px solid rgba(0,0,0,0.1);
     display: block;
 }
+.birthdate {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: normal;
+}
 #viewer_container {
     padding: 12px 0;
     border-bottom: 1px solid rgba(0,0,0,0.1);
     display: block;
+}
+.views {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: normal;
 }
