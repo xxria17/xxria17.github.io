@@ -224,7 +224,12 @@ body {
     margin-right: 16px;
     display: block;
     position: relative;
-    background-color: black;
+    background-color: coral;
+}
+#top_img {
+    height: 140px;
+    padding-left: 50px;
+    object-fit: cover;
 }
 
 span {
@@ -330,7 +335,12 @@ span {
     display: block;
     position: relative;
     flex: none;
-    background-color: #030303;
+    background-color: #adcbc9;
+}
+#first_img {
+    height: 110px;
+    padding-left: 50px;
+    object-fit: cover;
 }
 #recent_first_detail_inner {
     position: relative;
@@ -392,6 +402,10 @@ span {
     flex: none;
     background-color: #030303;
 }
+#second_img {
+    width: 210px;
+    object-fit: cover;
+}
 #recent_second_detail_inner {
     position: relative;
     display: flex;
@@ -451,6 +465,11 @@ span {
     position: relative;
     flex: none;
     background-color: #030303;
+}
+#third_img {
+    width: 210px;
+    height: 120px;
+    object-fit: cover;
 }
 #recent_third_detail_inner {
     position: relative;
@@ -512,6 +531,11 @@ span {
     flex: none;
     background-color: #030303;
 }
+#fourth_img {
+    width: 210px;
+    height: 120px;
+    object-fit: cover;
+}
 #recent_fourth_detail_inner {
     position: relative;
     display: flex;
@@ -571,6 +595,11 @@ span {
     position: relative;
     flex: none;
     background-color: #030303;
+}
+#fifth_img {
+    width: 210px;
+    height: 120px;
+    object-fit: cover;
 }
 #recent_fifth_detail_inner {
     position: relative;
